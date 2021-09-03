@@ -92,7 +92,7 @@ $(function (){
     once: false
   });
   // スムーススクロール
-  $('.form-btn').click(function(){
+  $('.scroll-btn').click(function(){
     var scroll = $('#contact').offset().top;
     scroll -= 95;
 
