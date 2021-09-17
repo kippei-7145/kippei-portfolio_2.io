@@ -227,7 +227,10 @@ button {
   position: fixed;
   z-index: 2;
 }
-
+.header-logo a {
+   display: flex;
+   align-items: center;
+}
 .header-logo img {
   width: 47px;
 }
