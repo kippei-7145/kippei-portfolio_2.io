@@ -58,7 +58,10 @@ a {
   vertical-align: baseline;
   background: transparent;
 }
-
+a:hover {
+  opacity: .5;
+  transition: all.3s;
+}
 /* change colours to suit your needs */
 ins {
   background-color: #ff9;
